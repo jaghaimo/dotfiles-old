@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ "$#" -ne 2 ]; then
+  NAME=`basename $0`
+  echo "Usage: ${NAME} <folder> <name>" >&2
+  exit 1
+fi
+
+cd $1
+
+mkdir valid
+mv *0,*.* valid
+
+mkdir invalid
+mv *,* invalid
+
+mkdir rest
+mv curr* rest
+
+cd ..
+mv $1 /mnt/c/Data/$2
