@@ -14,7 +14,7 @@ map <Space> <Leader>
 map Y y$
 
 " mappings
-nmap <silent> <leader> :q<CR>
+nmap <silent> <leader>q :q<CR>
 nmap <silent> <leader>s :w<CR>
 nmap <silent> <leader>w :noa w<CR>
 
