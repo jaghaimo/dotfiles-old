@@ -102,25 +102,28 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 
 # git aliases
+alias g="git"
 alias ga="git add"
 alias gb="git checkout -b"
-alias gc="git commit -v -m"
-alias gl="git log"
+alias gc="git commit"
+alias gl="git lg"
+alias gr="git rebase -i"
 alias gs='git status'
-alias gco="git-checkout origin"
-alias gcu="git-checkout upstream"
-alias gca='git commit --amend --no-edit'
-alias gcb='git branch -D $(git branch --list | grep -v $(git rev-parse --abbrev-ref HEAD))'
+
+# git fetchig aliases
 alias gfa='git fetch --all --prune'
 alias gfo='git fetch origin --prune'
 alias gfu='git fetch upstream --prune'
+
+# git pushing aliases
 alias gpo='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias gpof='git push origin $(git rev-parse --abbrev-ref HEAD) --force'
 alias gpu='git push upstream $(git rev-parse --abbrev-ref HEAD)'
 alias gpuf='git push upstream $(git rev-parse --abbrev-ref HEAD) --force'
 
 # git setup
-alias git-jag="git config user.name Jaghaimo;git config user.email 1764586+jaghaimo@users.noreply.github.com"
+alias git-clean-branches='git branch -D $(git branch --list | grep -v $(git rev-parse --abbrev-ref HEAD))'
+alias git-config-jag="git config user.name Jaghaimo;git config user.email 1764586+jaghaimo@users.noreply.github.com"
 
 # daisy
 alias gp_core="python3 -m gp_core"
