@@ -126,6 +126,7 @@ alias git-clean-branches='git branch -D $(git branch --list | grep -v $(git rev-
 alias git-config-jag="git config user.name Jaghaimo;git config user.email 1764586+jaghaimo@users.noreply.github.com"
 
 # daisy
+alias gp_activate="source venv/bin/activate"
 alias gp_core="python3 -m gp_core"
 alias gp_profile="python3 -m cProfile -o profile_output gp_core/__main__.py"
 
