@@ -1,0 +1,119 @@
+{
+    "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+    "CreationDate": "2021-10-13T20:52:20.406-00:00",
+    "Sources": [
+        {
+            "Packages": [
+                {
+                    "PackageIdentifier": "Microsoft.VisualStudio.2019.Community"
+                },
+                {
+                    "PackageIdentifier": "Lexikos.AutoHotkey"
+                },
+                {
+                    "PackageIdentifier": "CPUID.CPU-Z"
+                },
+                {
+                    "PackageIdentifier": "Discord.Discord"
+                },
+                {
+                    "PackageIdentifier": "GIMP.GIMP"
+                },
+                {
+                    "PackageIdentifier": "ArtifexSoftware.GhostScript"
+                },
+                {
+                    "PackageIdentifier": "Git.Git"
+                },
+                {
+                    "PackageIdentifier": "IrfanSkiljan.IrfanView"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.WindowsTerminal"
+                },
+                {
+                    "PackageIdentifier": "Mozilla.Firefox"
+                },
+                {
+                    "PackageIdentifier": "OpenTTD.OpenTTD"
+                },
+                {
+                    "PackageIdentifier": "Parsec.Parsec"
+                },
+                {
+                    "PackageIdentifier": "RawTherapee.RawTherapee"
+                },
+                {
+                    "PackageIdentifier": "Spotify.Spotify"
+                },
+                {
+                    "PackageIdentifier": "Valve.Steam"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.Teams"
+                },
+                {
+                    "PackageIdentifier": "Ubisoft.Connect"
+                },
+                {
+                    "PackageIdentifier": "VideoLAN.VLC"
+                },
+                {
+                    "PackageIdentifier": "marha.VcXsrv"
+                },
+                {
+                    "PackageIdentifier": "SlackTechnologies.Slack"
+                },
+                {
+                    "PackageIdentifier": "WinSCP.WinSCP"
+                },
+                {
+                    "PackageIdentifier": "ElectronicArts.EADesktop"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.OpenJDK.11"
+                },
+                {
+                    "PackageIdentifier": "Amazon.Games"
+                },
+                {
+                    "PackageIdentifier": "Google.Drive"
+                },
+                {
+                    "PackageIdentifier": "GOG.Galaxy"
+                },
+                {
+                    "PackageIdentifier": "KeePassXCTeam.KeePassXC"
+                },
+                {
+                    "PackageIdentifier": "Zoom.Zoom"
+                },
+                {
+                    "PackageIdentifier": "calibre.calibre"
+                },
+                {
+                    "PackageIdentifier": "EpicGames.EpicGamesLauncher"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.PowerToys"
+                },
+                {
+                    "PackageIdentifier": "alexx2000.DoubleCommander"
+                },
+                {
+                    "PackageIdentifier": "LibreOffice.LibreOffice"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.VisualStudioCode"
+                }
+            ],
+            "SourceDetails": {
+                "Argument": "https://winget.azureedge.net/cache",
+                "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+                "Name": "winget",
+                "Type": "Microsoft.PreIndexed.Package"
+            }
+        }
+    ],
+    "WinGetVersion": "1.1.12701"
+}
