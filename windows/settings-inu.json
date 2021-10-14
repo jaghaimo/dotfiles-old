@@ -1,10 +1,8 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -19,8 +17,7 @@
             "keys": "ctrl+shift+v"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -31,28 +28,17 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "colorScheme": "Gruvbox Dark"
         },
-        "list": 
-        [
+        "list": [
             {
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
                 "icon": "C:\\Users\\Admin\\Pictures\\ubuntu.png",
                 "name": "Ubuntu 20.04",
-                "source": "Windows.Terminal.Wsl",
-                "startingDirectory": null
-            },
-            {
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-                "hidden": false,
-                "icon": "C:\\Users\\Admin\\Pictures\\debian.png",
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl",
+                "commandline": "wsl.exe",
                 "startingDirectory": null
             },
             {
@@ -75,8 +61,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
