@@ -13,6 +13,7 @@ backup:
 	cp ~/.gitignore dotfiles/
 	cp ~/.p10k.zsh dotfiles/
 	cp ~/.profile dotfiles/
+	cp ~/.ssh/authorized_keys dotfiles/.ssh
 	cp ~/.ssh/config dotfiles/.ssh
 	cp ~/.tmux.conf dotfiles/
 	cp ~/.zshrc dotfiles/
