@@ -20,6 +20,16 @@ nmap <silent> <leader>w :noa w<CR>
 
 " vscode undo
 if exists('g:vscode')
-    nnoremap <silent> u :<C-u>call VSCodeNotify('undo')<CR>
-    nnoremap <silent> <C-r> :<C-u>call VSCodeNotify('redo')<CR>
+    " go to symbol
+    nnoremap <leader>d <Cmd>call VSCodeNotify('workbench.action.showAllSymbols', { 'query': expand('<cword>')})<CR>
+    " find word in files
+    nnoremap <leader>f <Cmd>call VSCodeNotify('workbench.action.findInFiles', { 'query': expand('<cword>')})<CR>
+    " go to file
+    nnoremap <leader>o <Cmd>call VSCodeNotify('workbench.action.quickOpen')<CR>
+    " show all commands
+    nnoremap <leader>p <Cmd>call VSCodeNotify('workbench.action.showCommands')<CR>
+
+    " vscode undo and redo
+    nnoremap <silent> u <Cmd>call VSCodeNotify('undo')<CR>
+    nnoremap <silent> <C-r> <Cmd>call VSCodeNotify('redo')<CR>
 endif
