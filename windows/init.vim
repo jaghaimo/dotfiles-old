@@ -21,14 +21,16 @@ nmap <silent> <leader>w :noa w<CR>
 " vscode undo
 if exists('g:vscode')
     " go to symbol
-    nnoremap <leader>d <Cmd>call VSCodeNotify('workbench.action.showAllSymbols', { 'query': expand('<cword>')})<CR>
-    " find word in files
-    nnoremap <leader>f <Cmd>call VSCodeNotify('workbench.action.findInFiles', { 'query': expand('<cword>')})<CR>
+    nnoremap gs <Cmd>call VSCodeNotify('workbench.action.showAllSymbols', { 'query': expand('<cword>')})<CR>
+    " quick fix
+    nnoremap ga <Cmd>call VSCodeNotify('editor.action.quickFix')<CR>
     " go to file
-    nnoremap <leader>o <Cmd>call VSCodeNotify('workbench.action.quickOpen')<CR>
+    nnoremap gf <Cmd>call VSCodeNotify('workbench.action.quickOpen')<CR>
     " show all commands
+    nnoremap gp <Cmd>call VSCodeNotify('workbench.action.showCommands')<CR>
     nnoremap <leader>p <Cmd>call VSCodeNotify('workbench.action.showCommands')<CR>
-
+    " find selected word in files
+    nnoremap <leader>f <Cmd>call VSCodeNotify('workbench.action.findInFiles', { 'query': expand('<cword>')})<CR>
     " vscode undo and redo
     nnoremap <silent> u <Cmd>call VSCodeNotify('undo')<CR>
     nnoremap <silent> <C-r> <Cmd>call VSCodeNotify('redo')<CR>

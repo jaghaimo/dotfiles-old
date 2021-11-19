@@ -109,6 +109,8 @@ alias gc="git commit"
 alias gl="git lg"
 alias gr="git rebase -i"
 alias gs='git status'
+alias gca="git commit --amend"
+alias gcm="git commit -m"
 
 # git fetchig aliases
 alias gfa='git fetch --all --prune'
