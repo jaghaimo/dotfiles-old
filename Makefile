@@ -23,5 +23,4 @@ backup:
 .PHONY: install
 install:
 	mkdir -p ~/.local/share/nvim/backup
-	rsync -r bin ~
 	rsync -r dotfiles/ ~

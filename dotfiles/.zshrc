@@ -152,7 +152,7 @@ alias zshrc='vim ~/.zshrc.local'
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 export FZF_DEFAULT_COMMAND='fdfind --type f'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export PATH="$PATH:$HOME/bin:$HOME/.config/composer/vendor/bin"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.config/composer/vendor/bin"
 source <(kubectl completion zsh)
 complete -F __start_kubectl k
 unset PAGER
