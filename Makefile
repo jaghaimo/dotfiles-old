@@ -6,18 +6,15 @@ help: Makefile
 ## backup		: Backup existing configuration files
 .PHONY: backup
 backup:
-	cp ~/bin . -r
-	cp ~/.config/nvim/init.vim dotfiles/.config/nvim/
-	cp ~/.config/nvim/coc-settings.json dotfiles/.config/nvim/
 	cp ~/.gitconfig dotfiles/
 	cp ~/.gitignore dotfiles/
+	cp ~/.local/bin/* dotfiles/.local/bin/
 	cp ~/.p10k.zsh dotfiles/
 	cp ~/.profile dotfiles/
 	cp ~/.ssh/authorized_keys dotfiles/.ssh
 	cp ~/.ssh/config dotfiles/.ssh
 	cp ~/.tmux.conf dotfiles/
 	cp ~/.zshrc dotfiles/
-	cp ~/.Xresources dotfiles/
 
 ## install	: Install new configuration files
 .PHONY: install
