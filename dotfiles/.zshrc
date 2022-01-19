@@ -104,12 +104,11 @@ source $ZSH/oh-my-zsh.sh
 # git aliases
 alias g="git"
 alias ga="git add"
-alias gb="git checkout -b"
-alias gc="git commit"
 alias gl="git lg"
 alias gr="git rebase -i"
 alias gs='git status'
 alias gca="git commit --amend"
+alias gcb="git checkout -b"
 alias gcm="git commit -m"
 
 # git fetchig aliases
@@ -139,6 +138,7 @@ alias p10kupdate="git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerleve
 alias rsync="rsync --info=progress2"
 alias sau="sudo apt update && sudo apt dist-upgrade && sudo apt autoremove --purge"
 alias tolower="ls | sed -n 's/.*/mv \"&\" \$(tr \"[A-Z]\" \"[a-z]\" <<< \"&\")/p' | bash"
+alias vim="lvim"
 
 # quick edits
 alias cocrc='vim ~/.config/nvim/coc-settings.json'
