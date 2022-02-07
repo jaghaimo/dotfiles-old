@@ -14,6 +14,7 @@ backup:
 	cp ~/.ssh/authorized_keys dotfiles/.ssh
 	cp ~/.ssh/config dotfiles/.ssh
 	cp ~/.tmux.conf dotfiles/
+	cp ~/.vimrc dotfiles/
 	cp ~/.zshrc dotfiles/
 
 ## install	: Install new configuration files

@@ -27,7 +27,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
+
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
@@ -142,7 +142,7 @@ alias tolower="ls | sed -n 's/.*/mv \"&\" \$(tr \"[A-Z]\" \"[a-z]\" <<< \"&\")/p
 # quick edits
 alias cocrc='vim ~/.config/nvim/coc-settings.json'
 alias i3rc='vim ~/.config/i3/config'
-alias vimrc='vim ~/.config/nvim/init.vim'
+alias vimrc='vim ~/.vimrc'
 alias zshrc='vim ~/.zshrc.local'
 
 # others
