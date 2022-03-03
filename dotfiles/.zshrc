@@ -125,6 +125,7 @@ alias gpuf='git push upstream $(git rev-parse --abbrev-ref HEAD) --force'
 # git setup
 alias git-clean-branches='git branch -D $(git branch --list | grep -v $(git rev-parse --abbrev-ref HEAD))'
 alias git-config-jag="git config user.name Jaghaimo;git config user.email 1764586+jaghaimo@users.noreply.github.com"
+alias git-dangling="git fsck --lost-found --dangling 2> /dev/null | cut -d ' ' -f 3 | xargs git log --oneline --no-walk"
 
 # daisy
 alias gp_activate="source venv/bin/activate"
